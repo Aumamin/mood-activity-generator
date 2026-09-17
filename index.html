@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Activity Generator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+      <div class="container">
+          <h1>Mood Activity Generator</h1>h1>
+
+          <p class="subtitle">
+
+          <label for="mood">How are you feeling today?</label>
+
+          <select id="mood">
+              <option value="">-- Select a mood --</option>
+              <option value="happy">Happy</option>
+              <option value="stressed">Stressed</option>
+              <option value="tired">Tired</option>
+              <option value="bored">Bored</option>
+              <option value="energetic">Energetic<option>
+              <option value="relaxed">Relaxed</option>
+          </select>
+
+          <button onclick='"generateActivity()">
+              Generate Activity
+          </button>
+
+          <div id="result"></div>
+        </div>
+
+        <script src="script.js"></script>
+                
+  </body>
+  </html>
