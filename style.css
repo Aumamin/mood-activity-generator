@@ -39,11 +39,13 @@ select {
 }
 
 button {
+    display: inline-block;
     padding: 12px 24px;
-    font-size:16px;
+    font-size: 16px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 #result {
